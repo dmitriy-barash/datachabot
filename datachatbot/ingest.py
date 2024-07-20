@@ -1,3 +1,6 @@
+#pip install python-dotenv==1.0.0 langchain==0.0.302 unstructured==0.10.12 sentence_transformers==2.2.2 tqdm==4.66.1 faiss-cpu==1.7.4
+# openai pandas PyMuPDF 
+
 import os
 
 from dotenv import load_dotenv

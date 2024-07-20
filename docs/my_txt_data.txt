@@ -1,0 +1,5 @@
+monday 5 hours work 1 hour break
+tuesday 1 hour work 1 hour break
+wednesday 10 hours work 1 hour break
+thursday 6 hours work 1 hour break
+friday 11 hours work 1 hour break
