@@ -13,7 +13,7 @@ class QA_Model:
         retrievalQA = RetrievalQA.from_chain_type(
                 llm=self.llm.get(), 
                 chain_type="stuff",
-                retriever=self.vector_store.load().as_retriever(search_kwargs={"k": 2}),
+                retriever=self.vector_store.load().as_retriever(search_kwargs={"k": 3}),
                 return_source_documents=True
             )
 
