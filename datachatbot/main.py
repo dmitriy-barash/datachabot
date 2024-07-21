@@ -1,3 +1,7 @@
+# pip install streamlit streamlit-chat
+# pip install langchain_community
+# pip install "unstructured[pdf]"
+
 import streamlit as st
 
 from chat import create_application

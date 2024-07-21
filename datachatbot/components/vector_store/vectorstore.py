@@ -19,7 +19,7 @@ class VectorStore:
         vectorstore.save_local(VECTOR_STORE_FOLDER)
 
     def load(self):
-        return FAISS.load_local(VECTOR_STORE_FOLDER, embeddings=self.embeddings)
+        return FAISS.load_local(VECTOR_STORE_FOLDER, embeddings=self.embeddings, allow_dangerous_deserialization=True)
     
     def clear(self):
         self.file_manager.remove_folder(folder=VECTOR_STORE_FOLDER)
