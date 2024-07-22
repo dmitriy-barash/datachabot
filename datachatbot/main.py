@@ -1,6 +1,9 @@
 # pip install streamlit streamlit-chat
+# pip install python-dotenv
 # pip install langchain_community
 # pip install "unstructured[pdf]"
+# pip uninstall python-magic
+# pip install python-magic-bin==0.4.14
 
 import streamlit as st
 
