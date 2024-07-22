@@ -3,7 +3,10 @@
 # pip install langchain_community
 # pip install "unstructured[pdf]"
 # pip uninstall python-magic
+# pip uninstall python-magic-bin
 # pip install python-magic-bin==0.4.14
+# pip install numpy --upgrade
+# pip install faiss-cpu
 
 import streamlit as st
 

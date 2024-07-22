@@ -4,6 +4,7 @@ import os
 
 #MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 MODEL_NAME = "text-embedding-ada-002"
+os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 
 class Embeddings:
     def __init__(self):
